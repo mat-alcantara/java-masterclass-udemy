@@ -19,5 +19,8 @@ public class Main {
 
         // Equal Sum Checker
         EqualSumChecker.hasEqualSum(2, 3, 5);
+
+        // Teen Number Checker
+        TeenNumberChecker.hasTeen(12, 22, 24);
     }
 }
