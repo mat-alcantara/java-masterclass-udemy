@@ -13,5 +13,8 @@ public class Main {
 
         // LeapYearCalculator
         LeapYearCalculator.isLeapYear(1990);
+
+        // DecimalComparator
+        DecimalComparator.areEqualByThreeDecimalPlaces(1.754, 3.678);
     }
 }
