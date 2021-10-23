@@ -7,5 +7,8 @@ public class Main {
 
         // MegaByte Converter
         MegaByteConverter.printMegaBytesAndKiloBytes(1024);
+
+        // Barking Dog
+        BarkingDog.shouldWakeUp(true, 8);
     }
 }
