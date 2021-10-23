@@ -10,5 +10,8 @@ public class Main {
 
         // Barking Dog
         BarkingDog.shouldWakeUp(true, 8);
+
+        // LeapYearCalculator
+        LeapYearCalculator.isLeapYear(1990);
     }
 }
