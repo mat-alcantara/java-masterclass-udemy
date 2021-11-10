@@ -1,4 +1,6 @@
-public class EvenDigitSum {
+package section5;
+
+public class EvenDigitNumber {
     public static int getEvenDigitSum(int number) {
         if (number < 0) {
             return -1;
