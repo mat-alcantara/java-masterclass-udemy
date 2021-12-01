@@ -6,9 +6,6 @@ public class FlourPacker {
             return false;
         }
 
-        int totalBigCount = bigCount * 5;
-        int totalKilos = totalBigCount + smallCount;
-
         int totalSum = 0;
 
         while(bigCount > 0 && totalSum + 5 <= goal) {
@@ -16,10 +13,6 @@ public class FlourPacker {
             bigCount -= 1;
         }
 
-        if(totalSum != goal && totalSum + smallCount < Math.abs(goal)) {
-            return false;
-        }
-
-        return true;
+        return totalSum == goal || totalSum + smallCount >= Math.abs(goal);
     }
 }
