@@ -16,14 +16,16 @@ class ReadingUserInputChallenge {
 
             if (hasNextInt) {
                 totalSum += scanner.nextInt();
-                scanner.nextLine();
 
                 counter += 1;
             } else {
                 System.out.println("Invalid Number");
-                scanner.nextLine();
             }
+
+            scanner.nextLine();
         }
+
+        scanner.close();
 
         System.out.println("A soma total é " + totalSum);
     }
